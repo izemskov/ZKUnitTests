@@ -1,0 +1,14 @@
+<zk>
+    <?page title="${labels.build.title}"?>
+
+    <div id="main_view" height="100%" width="100%" apply="ru.develgame.zkunittests.composers.MainComposer">
+        <vlayout width="100%" style="margin-top: 20px; text-align:center">
+            <hlayout valign="middle">
+                <label id="nameLabel" value="Name:"/>
+                <textbox id="nameTextBox" value="" width="200px"/>
+            </hlayout>
+
+            <button id="helloButton" label="Hello"/>
+        </vlayout>
+    </div>
+</zk>
